@@ -25,6 +25,14 @@ public class StringProcessor {
     return word.replaceAll("[^\\p{ASCII}]", "");
   }
 
+  public boolean containsDiacritics(String word) {
+    if (StringUtils.isBlank(word)) {
+      return false;
+    }
+
+    return !stripDiacritics(word).equals(word);
+  }
+
   public Multiset<String> buildUnigramsSet(String textCorpora) {
     Multiset<String> unigrams = HashMultiset.create();
     String[] phrases = toPhrases(textCorpora);
@@ -62,12 +70,23 @@ public class StringProcessor {
     return bigrams;
   }
 
-  public boolean containsDiacritics(String word) {
-    if (StringUtils.isBlank(word)) {
-      return false;
-    }
+  public Multiset<Trigram> buildTrigramsSet(String textCorpora) {
 
-    return !stripDiacritics(word).equals(word);
+    Multiset<Trigram> trigrams = HashMultiset.create();
+    String[] phrases = toPhrases(textCorpora);
+
+    for (String phrase : phrases) {
+      String[] words = toWords(phrase);
+
+      for (int i = 0; i < words.length; i++) {
+        if (containsDiacritics(words[i])) {
+          if (i > 1 && i < words.length - 1) {
+            trigrams.add(new Trigram(words[i - 1].toLowerCase(), words[i].toLowerCase(), words[i + 1].toLowerCase()));
+          }
+        }
+      }
+    }
+    return trigrams;
   }
 
 }

@@ -20,7 +20,7 @@ public class StringProcessorTest {
     "a calității educației. O evaluare corectă și transparentă, care asigură că fiecare elev obține rezultate " +
     "conform meritelor, le oferă tinerilor șanse egale de a-și alege și construi o carieră profesională și " +
     "generează schimbări semnificative de atitudine în întreg procesul educațional.";
-  private static final String BIGRAMS_TEXT_CORPORA = "Treceți batalioane române Carpații. La arme cu frunze și flori!" +
+  private static final String NGRAMS_TEXT_CORPORA = "Treceți batalioane române Carpații. La arme cu frunze și flori!" +
     " Treceți batalioane române Carpații. La arme cu frunze și flori!";
 
   public void testSplitTextToPhrases() {
@@ -84,12 +84,23 @@ public class StringProcessorTest {
   public void testBigramsIdentification() {
     StringProcessor processor = new StringProcessor();
 
-    Multiset<Bigram> bigrams = processor.buildBigramsSet(BIGRAMS_TEXT_CORPORA);
+    Multiset<Bigram> bigrams = processor.buildBigramsSet(NGRAMS_TEXT_CORPORA);
 
     assertEquals(bigrams.size(), 12);
     assertEquals(bigrams.count(new Bigram("și", "flori")), 2);
     assertEquals(bigrams.count(new Bigram("flori", "treceți")), 0);
     assertEquals(bigrams.elementSet().size(), 5);
+  }
+
+  public void testTrigramsIdentification() {
+    StringProcessor processor = new StringProcessor();
+
+    Multiset<Trigram> trigrams = processor.buildTrigramsSet(NGRAMS_TEXT_CORPORA);
+
+    assertEquals(trigrams.size(), 4);
+    assertEquals(trigrams.count(new Trigram("frunze", "și", "flori")), 2);
+    assertEquals(trigrams.count(new Trigram("treceți", "batalioane", "române")), 0);
+    assertEquals(trigrams.elementSet().size(), 2);
   }
 
 }
