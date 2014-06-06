@@ -49,7 +49,7 @@ public class StringProcessorTest {
 
     String wordWithoutDiacritics = processor.stripDiacritics("Științifică");
 
-    assertEquals(wordWithoutDiacritics, "Stiintifica");
+    assertEquals(wordWithoutDiacritics, "stiintifica");
   }
 
   public void testWordContainsDiacritics() {

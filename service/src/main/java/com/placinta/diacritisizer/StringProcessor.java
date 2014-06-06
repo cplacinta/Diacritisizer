@@ -4,7 +4,9 @@ import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import java.text.Normalizer;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Service;
 
+@Service
 public class StringProcessor {
 
   public String[] toPhrases(String input) {
@@ -21,16 +23,12 @@ public class StringProcessor {
   }
 
   public String stripDiacritics(String word) {
-    word = Normalizer.normalize(word, Normalizer.Form.NFD);
+    word = Normalizer.normalize(word, Normalizer.Form.NFD).toLowerCase();
     return word.replaceAll("[^\\p{ASCII}]", "");
   }
 
   public boolean containsDiacritics(String word) {
-    if (StringUtils.isBlank(word)) {
-      return false;
-    }
-
-    return !stripDiacritics(word).equals(word);
+    return StringUtils.isNotBlank(word) && !stripDiacritics(word).equals(word.toLowerCase());
   }
 
   public Multiset<String> buildUnigramsSet(String textCorpora) {
