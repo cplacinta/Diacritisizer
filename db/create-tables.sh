@@ -26,22 +26,21 @@ CREATE TABLE Dictionary (
 );
 
 CREATE TABLE Unigrams (
-  id              INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  word_id         INT UNSIGNED NOT NULL UNIQUE REFERENCES Dictionary (id),
+  word_id         INT UNSIGNED NOT NULL PRIMARY KEY REFERENCES Dictionary (id),
   frequency       INT UNSIGNED NOT NULL DEFAULT 0
 );
 
 CREATE TABLE Bigrams (
-  id              INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   first_word_id   INT UNSIGNED NOT NULL REFERENCES Dictionary (id),
-  second_word_id  INT UNSIGNED NOT NULL REFERENCES Dictionary (id)
+  second_word_id  INT UNSIGNED NOT NULL REFERENCES Dictionary (id),
+  PRIMARY KEY (first_word_id, second_word_id)
 );
 
 CREATE TABLE Trigrams (
-  id              INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   first_word_id   INT UNSIGNED NOT NULL REFERENCES Dictionary (id),
   second_word_id  INT UNSIGNED NOT NULL REFERENCES Dictionary (id),
-  third_word_id   INT UNSIGNED NOT NULL REFERENCES Dictionary (id)
+  third_word_id   INT UNSIGNED NOT NULL REFERENCES Dictionary (id),
+  PRIMARY KEY (first_word_id, second_word_id, third_word_id)
 );
 
 EOF

@@ -1,8 +1,13 @@
 package com.placinta.diacritisizer.dao;
 
+import com.placinta.diacritisizer.Bigram;
 import com.placinta.diacritisizer.CleanForm;
+import com.placinta.diacritisizer.Trigram;
+import com.placinta.diacritisizer.Unigram;
 import com.placinta.diacritisizer.Word;
-import java.util.List;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -19,8 +24,8 @@ public class WordDao {
     return sessionFactory.getCurrentSession();
   }
 
-  public void addWordIfAbsent(Word word) {
-    Word existingWord = getWordByValue(word.getWord());
+  public void saveWordIfAbsent(Word word) {
+    Word existingWord = getWordByValue(word.getText());
 
     if (existingWord != null) {
       return;
@@ -30,19 +35,70 @@ public class WordDao {
     getCurrentSession().save(word);
   }
 
-  @SuppressWarnings("unchecked")
-  public List<Word> getWords(CleanForm cleanForm) {
-    CleanForm actualCleanForm = getCleanFormByValue(cleanForm.getWord());
-    return getCurrentSession().createQuery("from Word where clean_id = " + actualCleanForm.getId()).list();
+  public Set<Word> getWords(CleanForm cleanForm) {
+    CleanForm actualCleanForm = getCleanFormByValue(cleanForm.getText());
+    if (actualCleanForm == null) {
+      return new HashSet<>();
+    }
+    return actualCleanForm.getWords();
   }
 
-  public Word getWordByValue(String value) {
-    Query query = getCurrentSession().createQuery("from Word where word = '" + value + "'");
+  public void saveWords(Collection<Word> words) {
+    for (Word word : words) {
+      saveWordIfAbsent(word);
+    }
+  }
+
+  public void saveBigrams(Set<Bigram> bigrams) {
+    for (Bigram bigram : bigrams) {
+      Word firstWord = getWordByValue(bigram.getFirstWord().getText());
+      Word secondWord = getWordByValue(bigram.getSecondWord().getText());
+
+      bigram.setFirstWord(firstWord);
+      bigram.setSecondWord(secondWord);
+      getCurrentSession().saveOrUpdate(bigram);
+    }
+  }
+  public void saveTrigrams(Set<Trigram> trigrams) {
+    for (Trigram trigram : trigrams) {
+      Word firstWord = getWordByValue(trigram.getFirstWord().getText());
+      Word secondWord = getWordByValue(trigram.getSecondWord().getText());
+      Word thirdWord = getWordByValue(trigram.getThirdWord().getText());
+
+      trigram.setFirstWord(firstWord);
+      trigram.setSecondWord(secondWord);
+      trigram.setThirdWord(thirdWord);
+      getCurrentSession().saveOrUpdate(trigram);
+    }
+
+  }
+
+  public void saveUnigrams(Set<Unigram> unigrams) {
+    for (Unigram unigram : unigrams) {
+      Word existingWord = getWordByValue(unigram.getWord().getText());
+
+      if (existingWord != null) {
+        Unigram existingUnigram = getUnigramById(existingWord.getId());
+        if (existingUnigram != null) {
+          existingUnigram.addFrequency(unigram.getFrequency());
+          unigram = existingUnigram;
+        } else {
+          unigram.setWord(existingWord);
+        }
+      }
+
+      saveWordIfAbsent(unigram.getWord());
+      getCurrentSession().saveOrUpdate(unigram);
+    }
+  }
+
+  private Word getWordByValue(String value) {
+    Query query = getCurrentSession().createQuery("from Word where text = '" + value + "'");
     return (Word) query.uniqueResult();
   }
 
   private Word checkCleanFormSaved(Word word) {
-    CleanForm cleanForm = getCleanFormByValue(word.getCleanForm().getWord());
+    CleanForm cleanForm = getCleanFormByValue(word.getCleanForm().getText());
     if (cleanForm == null) {
       getCurrentSession().save(word.getCleanForm());
     } else {
@@ -53,8 +109,12 @@ public class WordDao {
   }
 
   private CleanForm getCleanFormByValue(String value) {
-    Query query = getCurrentSession().createQuery("from CleanForm where word = '" + value + "'");
+    Query query = getCurrentSession().createQuery("from CleanForm where text = '" + value + "'");
     return (CleanForm) query.uniqueResult();
+  }
+
+  private Unigram getUnigramById(long wordId) {
+    return (Unigram) getCurrentSession().get(Unigram.class, wordId);
   }
 
 }

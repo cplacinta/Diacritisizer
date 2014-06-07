@@ -1,5 +1,6 @@
 package com.placinta.diacritisizer;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,15 +10,26 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
+import org.apache.commons.lang3.builder.EqualsBuilder;
 
 @Entity
 @Table(name = "Dictionary", uniqueConstraints = @UniqueConstraint(columnNames = "word"))
 @SuppressWarnings("unused")
-public class Word {
+public class Word implements Serializable {
+
+  private static final long serialVersionUID = 20140607L;
 
   private long id;
-  private String word;
+  private String text;
   private CleanForm cleanForm;
+
+  // required for hibernate
+  public Word() {
+  }
+
+  public Word(String text) {
+    this.text = text;
+  }
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,12 +42,12 @@ public class Word {
   }
 
   @Column(name = "word", unique = true, nullable = false)
-  public String getWord() {
-    return word;
+  public String getText() {
+    return text;
   }
 
-  public void setWord(String word) {
-    this.word = word;
+  public void setText(String text) {
+    this.text = text;
   }
 
   @ManyToOne
@@ -46,6 +58,22 @@ public class Word {
 
   public void setCleanForm(CleanForm cleanForm) {
     this.cleanForm = cleanForm;
+  }
+
+  @Override
+  @SuppressWarnings("EqualsWhichDoesntCheckParameterClass")
+  public boolean equals(Object other) {
+    return EqualsBuilder.reflectionEquals(this, other, "id", "cleanForm");
+  }
+
+  @Override
+  public int hashCode() {
+    return getText() != null ? getText().toLowerCase().hashCode() : 0;
+  }
+
+  @Override
+  public String toString() {
+    return getText();
   }
 
 }

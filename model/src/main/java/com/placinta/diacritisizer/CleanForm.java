@@ -3,6 +3,7 @@ package com.placinta.diacritisizer;
 import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -16,8 +17,16 @@ import javax.persistence.UniqueConstraint;
 public class CleanForm {
 
   private long id;
-  private String word;
+  private String text;
   private Set<Word> words;
+
+  // used by hibernate
+  public CleanForm() {
+  }
+
+  public CleanForm(String text) {
+    this.text = text;
+  }
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,15 +39,15 @@ public class CleanForm {
   }
 
   @Column(name = "clean_form", unique = true, nullable = false)
-  public String getWord() {
-    return word;
+  public String getText() {
+    return text;
   }
 
-  public void setWord(String word) {
-    this.word = word;
+  public void setText(String text) {
+    this.text = text;
   }
 
-  @OneToMany(mappedBy = "word")
+  @OneToMany(mappedBy = "cleanForm", fetch = FetchType.EAGER)
   public Set<Word> getWords() {
     return words;
   }
