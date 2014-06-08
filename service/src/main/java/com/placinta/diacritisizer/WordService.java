@@ -1,7 +1,7 @@
 package com.placinta.diacritisizer;
 
 import com.placinta.diacritisizer.dao.WordDao;
-import java.util.Set;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,11 +20,7 @@ public class WordService {
     wordDAO.saveTrigrams(result.getTrigrams());
   }
 
-  public void addWord(Word word) {
-    wordDAO.saveWordIfAbsent(word);
-  }
-
-  public Set<Word> getWords(CleanForm cleanForm) {
+  public List<Word> getWords(CleanForm cleanForm) {
     return wordDAO.getWords(cleanForm);
   }
 

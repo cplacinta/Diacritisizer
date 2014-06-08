@@ -1,6 +1,6 @@
 package com.placinta.diacritisizer;
 
-import java.util.Set;
+import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -18,7 +18,7 @@ public class CleanForm {
 
   private long id;
   private String text;
-  private Set<Word> words;
+  private List<Word> words;
 
   // used by hibernate
   public CleanForm() {
@@ -48,11 +48,11 @@ public class CleanForm {
   }
 
   @OneToMany(mappedBy = "cleanForm", fetch = FetchType.EAGER)
-  public Set<Word> getWords() {
+  public List<Word> getWords() {
     return words;
   }
 
-  public void setWords(Set<Word> words) {
+  public void setWords(List<Word> words) {
     this.words = words;
   }
 

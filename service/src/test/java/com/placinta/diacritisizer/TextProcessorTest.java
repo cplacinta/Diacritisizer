@@ -17,7 +17,7 @@ public class TextProcessorTest {
   private static final String PHRASE_ONE = "Mama paine alba coace.";
   private static final String PHRASE_TWO = "Noi cantam voios.";
   private static final String[] PHRASES = new String[]{PHRASE_ONE, PHRASE_TWO};
-  private static final String[] WORDS = new String[]{"mama", "paine", "alba", "coace"};
+  private static final String[] WORDS = new String[]{"Mama", "paine", "alba", "coace"};
   private static final String TEXT_CORPORA = "Educația de calitate este indispensabilă pentru dezvoltarea și " +
     "valorificarea potențialului fiecărui copil și, în cele din urmă, pentru prosperarea țării în care trăim. " +
     "Sesiunea de bacalaureat 2014, care începe astăzi, constituie un element important în procesul de îmbunătățire " +

@@ -140,7 +140,7 @@ public class TextProcessor {
     List<String> filteredWords = new ArrayList<>(words.length);
 
     for (String word : words) {
-      word = StringUtils.trim(word.toLowerCase());
+      word = StringUtils.trim(word);
       // ignoring all the words that contain special characters, except for "-" and "'"
       if (StringUtils.isAlpha(word) || word.length() > 1 && StringUtils.containsAny(word, "-’")) {
         filteredWords.add(word);

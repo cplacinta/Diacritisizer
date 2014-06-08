@@ -5,8 +5,9 @@ import com.placinta.diacritisizer.CleanForm;
 import com.placinta.diacritisizer.Trigram;
 import com.placinta.diacritisizer.Unigram;
 import com.placinta.diacritisizer.Word;
+import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -20,25 +21,10 @@ public class WordDao {
   @Autowired
   private SessionFactory sessionFactory;
 
-  private Session getCurrentSession() {
-    return sessionFactory.getCurrentSession();
-  }
-
-  public void saveWordIfAbsent(Word word) {
-    Word existingWord = getWordByValue(word.getText());
-
-    if (existingWord != null) {
-      return;
-    }
-
-    word = checkCleanFormSaved(word);
-    getCurrentSession().save(word);
-  }
-
-  public Set<Word> getWords(CleanForm cleanForm) {
+  public List<Word> getWords(CleanForm cleanForm) {
     CleanForm actualCleanForm = getCleanFormByValue(cleanForm.getText());
     if (actualCleanForm == null) {
-      return new HashSet<>();
+      return new ArrayList<>();
     }
     return actualCleanForm.getWords();
   }
@@ -59,6 +45,7 @@ public class WordDao {
       getCurrentSession().saveOrUpdate(bigram);
     }
   }
+
   public void saveTrigrams(Set<Trigram> trigrams) {
     for (Trigram trigram : trigrams) {
       Word firstWord = getWordByValue(trigram.getFirstWord().getText());
@@ -90,6 +77,21 @@ public class WordDao {
       saveWordIfAbsent(unigram.getWord());
       getCurrentSession().saveOrUpdate(unigram);
     }
+  }
+
+  private Session getCurrentSession() {
+    return sessionFactory.getCurrentSession();
+  }
+
+  private void saveWordIfAbsent(Word word) {
+    Word existingWord = getWordByValue(word.getText());
+
+    if (existingWord != null) {
+      return;
+    }
+
+    word = checkCleanFormSaved(word);
+    getCurrentSession().save(word);
   }
 
   private Word getWordByValue(String value) {

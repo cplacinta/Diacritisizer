@@ -24,9 +24,18 @@ public class WordFactory {
 
     text = StringUtils.lowerCase(text);
     Word word = new Word(text);
-    word.setCleanForm(new CleanForm(diacriticsUtils.stripDiacritics(text)));
+    word.setCleanForm(createCleanForm(text));
 
     return word;
+  }
+
+  public CleanForm createCleanForm(String text) {
+    if (StringUtils.isBlank(text)) {
+      throw new IllegalArgumentException("Clean form cannot be empty");
+    }
+
+    String textInLowercase = StringUtils.lowerCase(text);
+    return new CleanForm(diacriticsUtils.stripDiacritics(textInLowercase));
   }
 
 }
