@@ -3,9 +3,11 @@ package com.placinta.diacritisizer;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import com.placinta.diacritisizer.builder.WordFactory;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import org.apache.commons.lang3.StringUtils;
@@ -15,8 +17,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class TextProcessor {
 
-  private static final String PHRASE_SEPARATORS = ".?!";
-  private static final String WORD_SEPARATORS = " ,;:\"\'";
+  private static final String PHRASE_SEPARATORS = "—.?!";
+  private static final String WORD_SEPARATORS = " ,;:–\"\'„”“()[]{}";
 
   private final DiacriticsUtils diacriticsUtils;
   private final WordFactory wordFactory;
@@ -37,7 +39,7 @@ public class TextProcessor {
     Set<Trigram> trigrams = new HashSet<>();
 
     for (String phrase : phrases) {
-      String[] words = toWords(phrase);
+      List<String> words = toWords(phrase);
 
       wordsMap.putAll(getUniqueWordsMap(words));
       unigramMultiset.addAll(buildUnigramsSet(words, wordsMap));
@@ -50,7 +52,7 @@ public class TextProcessor {
     return new TextProcessingResult(wordsMap.values(), unigrams, bigrams, trigrams);
   }
 
-  private Map<String, Word> getUniqueWordsMap(String[] input) {
+  private Map<String, Word> getUniqueWordsMap(List<String> input) {
     Map<String, Word> words = new HashMap<>();
     for (String string : input) {
       String text = string.toLowerCase();
@@ -62,7 +64,7 @@ public class TextProcessor {
     return words;
   }
 
-  private Multiset<Unigram> buildUnigramsSet(String[] words, Map<String, Word> wordsMap) {
+  private Multiset<Unigram> buildUnigramsSet(List<String> words, Map<String, Word> wordsMap) {
     Multiset<Unigram> unigramMultiset = HashMultiset.create();
 
     for (String word : words) {
@@ -73,38 +75,42 @@ public class TextProcessor {
     return unigramMultiset;
   }
 
-  private Collection<? extends Bigram> buildBigramsSet(String[] words) {
+  private Collection<? extends Bigram> buildBigramsSet(List<String> words) {
     Set<Bigram> bigrams = new HashSet<>();
 
-    for (int i = 0; i < words.length; i++) {
-      if (diacriticsUtils.containsDiacritics(words[i])) {
-        Word commonWord = wordFactory.createWord(words[i]);
+    int i = 0;
+    for (String word : words) {
+      if (diacriticsUtils.containsDiacritics(word)) {
+        Word commonWord = wordFactory.createWord(word);
         if (i > 0) {
-          Word firstWord = wordFactory.createWord(words[i - 1]);
+          Word firstWord = wordFactory.createWord(words.get(i - 1));
           bigrams.add(new Bigram(firstWord, commonWord));
         }
-        if (words.length - i > 1) {
-          Word secondWord = wordFactory.createWord(words[i + 1]);
+        if (words.size() - i > 1) {
+          Word secondWord = wordFactory.createWord(words.get(i + 1));
           bigrams.add(new Bigram(commonWord, secondWord));
         }
       }
+      i++;
     }
     return bigrams;
   }
 
-  private Collection<? extends Trigram> buildTrigramsSet(String[] words) {
+  private Collection<? extends Trigram> buildTrigramsSet(List<String> words) {
     Set<Trigram> trigrams = new HashSet<>();
 
-    for (int i = 0; i < words.length; i++) {
-      if (diacriticsUtils.containsDiacritics(words[i])) {
-        if (i > 1 && i < words.length - 1) {
-          Word firstWord = wordFactory.createWord(words[i - 1]);
-          Word secondWord = wordFactory.createWord(words[i]);
-          Word thirdWord = wordFactory.createWord(words[i + 1]);
+    int i = 0;
+    for (String word : words) {
+      if (diacriticsUtils.containsDiacritics(word)) {
+        if (i > 1 && i < words.size() - 1) {
+          Word firstWord = wordFactory.createWord(words.get(i - 1));
+          Word secondWord = wordFactory.createWord(word);
+          Word thirdWord = wordFactory.createWord(words.get(i + 1));
 
           trigrams.add(new Trigram(firstWord, secondWord, thirdWord));
         }
       }
+      i++;
     }
     return trigrams;
 
@@ -129,8 +135,19 @@ public class TextProcessor {
     return phrases;
   }
 
-  public String[] toWords(String input) {
-    return StringUtils.split(input, WORD_SEPARATORS);
+  public List<String> toWords(String input) {
+    String[] words = StringUtils.split(input, WORD_SEPARATORS);
+    List<String> filteredWords = new ArrayList<>(words.length);
+
+    for (String word : words) {
+      word = StringUtils.trim(word.toLowerCase());
+      // ignoring all the words that contain special characters, except for "-" and "'"
+      if (StringUtils.isAlpha(word) || word.length() > 1 && StringUtils.containsAny(word, "-’")) {
+        filteredWords.add(word);
+      }
+    }
+
+    return filteredWords;
   }
 
 }

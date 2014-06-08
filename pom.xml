@@ -10,14 +10,11 @@
  <name>diacritisizer</name>
  <url>https://github.com/cplacinta/Diacritisizer</url>
 
- <properties>
-  <hibernate.version>4.3.5.Final</hibernate.version>
- </properties>
-
  <modules>
   <module>model</module>
   <module>data-access</module>
   <module>service</module>
+  <module>text-parser</module>
  </modules>
 
  <build>

@@ -2,6 +2,7 @@ package com.placinta.diacritisizer;
 
 import com.placinta.diacritisizer.builder.WordFactory;
 import java.util.Collection;
+import java.util.List;
 import java.util.Set;
 import org.apache.commons.lang3.StringUtils;
 import org.testng.annotations.BeforeMethod;
@@ -16,7 +17,7 @@ public class TextProcessorTest {
   private static final String PHRASE_ONE = "Mama paine alba coace.";
   private static final String PHRASE_TWO = "Noi cantam voios.";
   private static final String[] PHRASES = new String[]{PHRASE_ONE, PHRASE_TWO};
-  private static final String[] WORDS = new String[]{"Mama", "paine", "alba", "coace"};
+  private static final String[] WORDS = new String[]{"mama", "paine", "alba", "coace"};
   private static final String TEXT_CORPORA = "Educația de calitate este indispensabilă pentru dezvoltarea și " +
     "valorificarea potențialului fiecărui copil și, în cele din urmă, pentru prosperarea țării în care trăim. " +
     "Sesiunea de bacalaureat 2014, care începe astăzi, constituie un element important în procesul de îmbunătățire " +
@@ -43,11 +44,13 @@ public class TextProcessorTest {
   }
 
   public void testSplitPhraseInWords() {
-    String[] words = processor.toWords(PHRASE_ONE.replace(".", ""));
+    List<String> words = processor.toWords(PHRASE_ONE.replace(".", ""));
 
-    assertEquals(words.length, 4);
-    for (int i = 0; i < words.length; i++) {
-      assertEquals(words[i], WORDS[i]);
+    assertEquals(words.size(), 4);
+    int i = 0;
+    for (String word : words) {
+      assertEquals(word, WORDS[i]);
+      i++;
     }
   }
 
@@ -59,7 +62,7 @@ public class TextProcessorTest {
     Set<Trigram> trigrams = result.getTrigrams();
 
 
-    assertEquals(uniqueWords.size(), 62);
+    assertEquals(uniqueWords.size(), 61);
     assertEquals(unigrams.size(), 28);
     assertEquals(bigrams.size(), 53);
     assertEquals(trigrams.size(), 31);
@@ -69,6 +72,7 @@ public class TextProcessorTest {
     Word word4 = wordFactory.createWord("calitate");
 
     assertTrue(uniqueWords.contains(wordFactory.createWord("este")));
+    assertFalse(uniqueWords.contains(wordFactory.createWord("2014")));
 
     assertTrue(unigrams.contains(new Unigram(word2)));
     assertFalse(unigrams.contains(new Unigram(wordFactory.createWord("este"))));
