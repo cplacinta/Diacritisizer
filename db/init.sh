@@ -13,7 +13,7 @@ DEFAULT COLLATE utf8_romanian_ci;
 # Add web user
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,ALTER,DROP,INDEX,CREATE TEMPORARY TABLES
         ON diacritics.*
-        TO web@'%'
+        TO web@'localhost'
         IDENTIFIED BY '$PROJECT_DB_PASSWORD';
 
 # Commit access control changes
