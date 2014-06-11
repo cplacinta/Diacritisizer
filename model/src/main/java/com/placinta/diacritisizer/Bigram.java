@@ -58,4 +58,12 @@ public class Bigram implements Serializable {
     return HashCodeBuilder.reflectionHashCode(this);
   }
 
+  @Override
+  public String toString() {
+    return "Bigram{" +
+      "firstWord=" + firstWord +
+      ", secondWord=" + secondWord +
+      '}';
+  }
+
 }

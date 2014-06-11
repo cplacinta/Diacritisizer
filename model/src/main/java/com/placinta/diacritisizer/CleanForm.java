@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
+import org.apache.commons.lang3.builder.EqualsBuilder;
 
 @Entity
 @Table(name = "FlatDictionary", uniqueConstraints = @UniqueConstraint(columnNames = "clean_form"))
@@ -54,6 +55,22 @@ public class CleanForm {
 
   public void setWords(List<Word> words) {
     this.words = words;
+  }
+
+  @Override
+  public String toString() {
+    return "CleanForm{ text='" + text + "' }";
+  }
+
+  @Override
+  @SuppressWarnings("EqualsWhichDoesntCheckParameterClass")
+  public boolean equals(Object other) {
+    return EqualsBuilder.reflectionEquals(this, other, "id", "words");
+  }
+
+  @Override
+  public int hashCode() {
+    return text != null ? text.hashCode() : 0;
   }
 
 }

@@ -79,6 +79,34 @@ public class WordDao {
     }
   }
 
+  public Bigram getBigram(Bigram bigram) {
+    Query query = getCurrentSession().createQuery("from Bigram where firstWord.text = '"
+      + bigram.getFirstWord() + "' and secondWord.text = '" + bigram.getSecondWord() + "'");
+    return (Bigram) query.uniqueResult();
+  }
+
+  @SuppressWarnings("unchecked")
+  public List<Trigram> getPossibleTrigrams(String firstWords, String secondWords, String thirdWords) {
+    String firstWordsCriteria = getTrigramFilterCriteria(firstWords, "firstWord");
+    String secondWordsCriteria = getTrigramFilterCriteria(secondWords, "secondWord");
+    String thirdWordsCriteria = getTrigramFilterCriteria(thirdWords, "thirdWord");
+    Query query = getCurrentSession().createQuery(
+      "from Trigram where " + firstWordsCriteria + "and " + secondWordsCriteria + "and " + thirdWordsCriteria);
+    return (List<Trigram>) query.list();
+  }
+
+  public Unigram getHighestFrequencyUnigram(String possibleUnigrams) {
+    Query query = getCurrentSession().createQuery(
+      "from Unigram where word.text in (" + possibleUnigrams + ") order by frequency desc");
+    return getFirstUnigram(query);
+  }
+
+  public Unigram getHighestFrequencyUnigramByCleanForm(String cleanForm) {
+    Query query = getCurrentSession().createQuery(
+      "from Unigram where word.cleanForm.text in (" + cleanForm + ") order by frequency desc");
+    return getFirstUnigram(query);
+  }
+
   private Session getCurrentSession() {
     return sessionFactory.getCurrentSession();
   }
@@ -117,6 +145,19 @@ public class WordDao {
 
   private Unigram getUnigramById(long wordId) {
     return (Unigram) getCurrentSession().get(Unigram.class, wordId);
+  }
+
+  private String getTrigramFilterCriteria(String inCriteria, String fieldName) {
+    return inCriteria.length() > 0 ? (fieldName + ".text in (" + inCriteria + ") ") : " 1=1 ";
+  }
+
+  @SuppressWarnings("unchecked")
+  private Unigram getFirstUnigram(Query query) {
+    List<Unigram> results = query.list();
+    if (results != null && results.size() > 0) {
+      return results.get(0);
+    }
+    return null;
   }
 
 }
