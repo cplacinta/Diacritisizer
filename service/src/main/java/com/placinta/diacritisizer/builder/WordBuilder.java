@@ -8,28 +8,28 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class WordFactory {
+public class WordBuilder {
 
   private final DiacriticsUtils diacriticsUtils;
 
   @Autowired
-  public WordFactory(DiacriticsUtils diacriticsUtils) {
+  public WordBuilder(DiacriticsUtils diacriticsUtils) {
     this.diacriticsUtils = diacriticsUtils;
   }
 
-  public Word createWord(String text) {
+  public Word buildWord(String text) {
     if (StringUtils.isBlank(text)) {
       throw new IllegalArgumentException("Word cannot be empty");
     }
 
     text = StringUtils.lowerCase(text);
     Word word = new Word(text);
-    word.setCleanForm(createCleanForm(text));
+    word.setCleanForm(buildCleanForm(text));
 
     return word;
   }
 
-  public CleanForm createCleanForm(String text) {
+  public CleanForm buildCleanForm(String text) {
     if (StringUtils.isBlank(text)) {
       throw new IllegalArgumentException("Clean form cannot be empty");
     }

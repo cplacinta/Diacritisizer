@@ -1,6 +1,6 @@
 package com.placinta.diacritisizer;
 
-import com.placinta.diacritisizer.builder.WordFactory;
+import com.placinta.diacritisizer.builder.WordBuilder;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
@@ -26,13 +26,13 @@ public class TextProcessorTest {
     "generează schimbări semnificative de atitudine în întreg procesul educațional.";
 
   private TextProcessor processor;
-  private WordFactory wordFactory;
+  private WordBuilder wordBuilder;
 
   @BeforeMethod
   public void setUp() {
     DiacriticsUtils diacriticsUtils = new DiacriticsUtils();
-    wordFactory = new WordFactory(diacriticsUtils);
-    processor = new TextProcessor(diacriticsUtils, wordFactory);
+    wordBuilder = new WordBuilder(diacriticsUtils);
+    processor = new TextProcessor(diacriticsUtils, wordBuilder);
   }
 
   public void testSplitTextToPhrases() {
@@ -67,27 +67,27 @@ public class TextProcessorTest {
     assertEquals(bigrams.size(), 53);
     assertEquals(trigrams.size(), 31);
 
-    Word word2 = wordFactory.createWord("indispensabilă");
-    Word word3 = wordFactory.createWord("pentru");
-    Word word4 = wordFactory.createWord("calitate");
+    Word word2 = wordBuilder.buildWord("indispensabilă");
+    Word word3 = wordBuilder.buildWord("pentru");
+    Word word4 = wordBuilder.buildWord("calitate");
 
-    assertTrue(uniqueWords.contains(wordFactory.createWord("este")));
-    assertFalse(uniqueWords.contains(wordFactory.createWord("2014")));
+    assertTrue(uniqueWords.contains(wordBuilder.buildWord("este")));
+    assertFalse(uniqueWords.contains(wordBuilder.buildWord("2014")));
 
     assertTrue(unigrams.contains(new Unigram(word2)));
-    assertFalse(unigrams.contains(new Unigram(wordFactory.createWord("este"))));
+    assertFalse(unigrams.contains(new Unigram(wordBuilder.buildWord("le"))));
 
     verifyFrequency(unigrams);
 
-    assertTrue(bigrams.contains(new Bigram(wordFactory.createWord("este"), word2)));
+    assertTrue(bigrams.contains(new Bigram(wordBuilder.buildWord("este"), word2)));
     assertFalse(bigrams.contains(new Bigram(word4, word2)));
 
-    assertTrue(trigrams.contains(new Trigram(wordFactory.createWord("este"), word2, word3)));
-    assertFalse(trigrams.contains(new Trigram(word4, wordFactory.createWord("este"), word2)));
+    assertTrue(trigrams.contains(new Trigram(wordBuilder.buildWord("este"), word2, word3)));
+    assertFalse(trigrams.contains(new Trigram(word4, wordBuilder.buildWord("este"), word2)));
   }
 
   private void verifyFrequency(Set<Unigram> unigrams) {
-    Unigram frequentUnigram = new Unigram(wordFactory.createWord("și"));
+    Unigram frequentUnigram = new Unigram(wordBuilder.buildWord("și"));
     frequentUnigram.setFrequency(5);
     for (Unigram unigram : unigrams) {
       if (unigram.equals(frequentUnigram)) {

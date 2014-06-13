@@ -1,6 +1,6 @@
 package com.placinta.diacritisizer;
 
-import com.placinta.diacritisizer.builder.WordFactory;
+import com.placinta.diacritisizer.builder.WordBuilder;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,13 +12,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class DiacriticsRestorer {
   private final TextProcessor processor;
-  private final WordFactory wordFactory;
+  private final WordBuilder wordBuilder;
   private final WordService wordService;
 
   @Autowired
-  public DiacriticsRestorer(TextProcessor processor, WordFactory wordFactory, WordService wordService) {
+  public DiacriticsRestorer(TextProcessor processor, WordBuilder wordBuilder, WordService wordService) {
     this.processor = processor;
-    this.wordFactory = wordFactory;
+    this.wordBuilder = wordBuilder;
     this.wordService = wordService;
   }
 
@@ -53,7 +53,7 @@ public class DiacriticsRestorer {
           nextWord = null;
         }
 
-        CleanForm cleanForm = wordFactory.createCleanForm(currentWord);
+        CleanForm cleanForm = wordBuilder.buildCleanForm(currentWord);
         List<Word> currentWordPossibleForms = wordService.getWords(cleanForm);
 
         if (currentWordPossibleForms.size() == 1) {
@@ -62,12 +62,12 @@ public class DiacriticsRestorer {
         } else if (previousWord != null || nextWord != null) {
           List<Word> previousWordPossibleForms = new ArrayList<>();
           if (previousWord != null) {
-            CleanForm previousWordCleanForm = wordFactory.createCleanForm(previousWord);
+            CleanForm previousWordCleanForm = wordBuilder.buildCleanForm(previousWord);
             previousWordPossibleForms = wordService.getWords(previousWordCleanForm);
           }
           List<Word> nextWordCleanForms = new ArrayList<>();
           if (nextWord != null) {
-            CleanForm nextWordCleanForm = wordFactory.createCleanForm(nextWord);
+            CleanForm nextWordCleanForm = wordBuilder.buildCleanForm(nextWord);
             nextWordCleanForms = wordService.getWords(nextWordCleanForm);
           }
 
@@ -93,7 +93,7 @@ public class DiacriticsRestorer {
           }
           if (filteredBigrams.size() == 1) {
             Word replacementWord =
-              wordService.getCorrectWordFromBigram(bigrams.get(0), wordFactory.createCleanForm(currentWord));
+              wordService.getCorrectWordFromBigram(bigrams.get(0), wordBuilder.buildCleanForm(currentWord));
             input = replaceWord(input, currentWord, replacementWord, startIndex, endIndex);
             replacementFound = true;
           } else {

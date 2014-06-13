@@ -2,7 +2,7 @@ package com.placinta.diacritisizer;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
-import com.placinta.diacritisizer.builder.WordFactory;
+import com.placinta.diacritisizer.builder.WordBuilder;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -21,12 +21,12 @@ public class TextProcessor {
   private static final String WORD_SEPARATORS = " ,;:–\"\'„”“()[]{}";
 
   private final DiacriticsUtils diacriticsUtils;
-  private final WordFactory wordFactory;
+  private final WordBuilder wordBuilder;
 
   @Autowired
-  public TextProcessor(DiacriticsUtils diacriticsUtils, WordFactory wordFactory) {
+  public TextProcessor(DiacriticsUtils diacriticsUtils, WordBuilder wordBuilder) {
     this.diacriticsUtils = diacriticsUtils;
-    this.wordFactory = wordFactory;
+    this.wordBuilder = wordBuilder;
   }
 
   public TextProcessingResult processText(String textCorpora) {
@@ -57,7 +57,7 @@ public class TextProcessor {
     for (String string : input) {
       String text = string.toLowerCase();
       if (!words.containsKey(text)) {
-        Word word = wordFactory.createWord(text);
+        Word word = wordBuilder.buildWord(text);
         words.put(word.getText(), word);
       }
     }
@@ -81,13 +81,13 @@ public class TextProcessor {
     int i = 0;
     for (String word : words) {
       if (diacriticsUtils.containsDiacritics(word)) {
-        Word commonWord = wordFactory.createWord(word);
+        Word commonWord = wordBuilder.buildWord(word);
         if (i > 0) {
-          Word firstWord = wordFactory.createWord(words.get(i - 1));
+          Word firstWord = wordBuilder.buildWord(words.get(i - 1));
           bigrams.add(new Bigram(firstWord, commonWord));
         }
         if (words.size() - i > 1) {
-          Word secondWord = wordFactory.createWord(words.get(i + 1));
+          Word secondWord = wordBuilder.buildWord(words.get(i + 1));
           bigrams.add(new Bigram(commonWord, secondWord));
         }
       }
@@ -103,9 +103,9 @@ public class TextProcessor {
     for (String word : words) {
       if (diacriticsUtils.containsDiacritics(word)) {
         if (i > 1 && i < words.size() - 1) {
-          Word firstWord = wordFactory.createWord(words.get(i - 1));
-          Word secondWord = wordFactory.createWord(word);
-          Word thirdWord = wordFactory.createWord(words.get(i + 1));
+          Word firstWord = wordBuilder.buildWord(words.get(i - 1));
+          Word secondWord = wordBuilder.buildWord(word);
+          Word thirdWord = wordBuilder.buildWord(words.get(i + 1));
 
           trigrams.add(new Trigram(firstWord, secondWord, thirdWord));
         }
