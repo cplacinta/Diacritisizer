@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TextProcessor {
 
-  private static final String PHRASE_SEPARATORS = "—.?!";
+  private static final String PHRASE_SEPARATORS = "—.?!|";
   private static final String WORD_SEPARATORS = " ,;:–\"\'„”“()[]{}";
 
   private final DiacriticsUtils diacriticsUtils;

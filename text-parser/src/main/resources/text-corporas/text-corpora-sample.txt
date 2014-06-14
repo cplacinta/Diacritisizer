@@ -8055,7 +8055,7 @@ După ce l-a prins, şeful poliţiei, Mullrooney, a declarat:
 Ucide pentru nimic".
 Ce gândea Crowley despre asta ? De pildă, s-a aflat că, în timp ce împuşcăturile se
 înteţeau în juru-i, el scria o scrisoare destinată acelora ce-i vor găsi cadavrul. Sângele scurs
-din rănile ce le avea pătau în roşu hârtia. In scrisoare el afirma următoarele: "Sub vesta mea
+din rănile ce le avea pătau în roşu hârtia. în scrisoare el afirma următoarele: "Sub vesta mea
 bate o inimă obosită, dar bună şi care n-ar face rău nimănui".
 Cu puţin înainte de acest eveniment, Crowley se găsea la ţară, aproape de Long
 Island. Un poliţist s-a apropiat de maşina lui şi i-a zis: ,,Arată-mi permisul dumitale". Fără a
@@ -8118,7 +8118,7 @@ duhoare atât de infectă încât a ruinat administraţia lui Harding, a scârbi
 fost gata să destrame partidul Republican şi l-a adus pe AI. Fall în dosul gratiilor.
 Fall a fost condamnat cum puţin oameni politici au fost vreodată. Credeţi că s-a căit ?
 Nu. Câţiva ani mai târziu, Herbert Hoover insinua într-un discurs că moartea preşedintelui
-Harding ş-a datorat nelinişti şi chinului suferit din pricina trădării unui amic. Când doamna
+Harding s-a datorat nelinişti şi chinului suferit din pricina trădării unui amic. Când doamna
 Fall a auzit aceasta a sărit ca arsă, strigând: "Ce! Harding trădat de Fall! Nu, soţul meu nu a
 trădat pe nimeni. Această casă încărcată cu aur nu ar ajunge să-i ispitească! El a fost cel
 trădat, crucificat şi pus la stâlp".
@@ -8131,7 +8131,7 @@ exclama: "Nu văd cum aş fi putut face altfel".
 Cunoaşteţi vreo persoană pe care aţi vrea s-o îndreptaţi? Da? Perfect. O idee
 excelentă. Dar de ce n-aţi începe cu dv. înşivă ? Ar fi mult mai de folos decât de a încerca a
 corija pe alţii şi... mult mai puţin primejdios.
-"Când bătălia începe in noi înşine, ne îndreptăm către perfecţiune", zicea poetul
+"Când bătălia începe în noi înşine, ne îndreptăm către perfecţiune", zicea poetul
 englezul Robert Browning.
 Să începem prin a ne îndrepta pe noi înşine. Confucius spunea: "Nu te plânge de
 zăpada ce se găseşte pe acoperişul vecinului, când propriul tău prag este necurăţat".
@@ -8333,7 +8333,7 @@ propun linguşirea, vreau să vorbesc de cu totul altceva, de o nouă atitudine 
 nouă manieră de a trăi. Regele George V. pusese să se scrie şase maxime în biroul său din
 Buckingham-Palace. Iată una dintre ele: "învăţaţi-mă să nu cheltuiesc şi să nu primesc nici
 o josnică linguşire".
-Dacă ar ajunge să linguşeşti, lucrul ar fi uşor şi am deveni cu toţii minunaţi diplomaţi. In loc
+Dacă ar ajunge să linguşeşti, lucrul ar fi uşor şi am deveni cu toţii minunaţi diplomaţi. în loc
 de a ne concentra asupra noastră să ne străduim a observa calităţile interlocutorului nostru.
 Am putea să-i exprimăm admiraţia noastră sinceră, fără a recurge la complimentele
 grosolane şi false, care sunt demascate înainte chiar-de a fi trecut de buzele noastre.
@@ -8425,7 +8425,7 @@ comentat-o astfel, verbal: "Vezi, vei avea posibilitatea! de a închiria sala pe
 reuniuni. Este un mare avantaj, căci în cazul acesta tariful este mult mai urcat, nu-i aşa ?
 Dacă îţi imobilizez sala timpi de trei săptămâni vei pierde cu siguranţă ocazia da a realiza
 vreun beneficiu. Acum să vedem inconvenientele. Întâi, în loc de a spori venitul, îl vei
-reduce. Voi alege altă sală pentru conferinţele mele si atunci nu vei mai primi nimic. în afară
+reduce. Voi alege altă sală pentru conferinţele mele și atunci nu vei mai primi nimic. în afară
 de asta nu va fi singura pierdere. Conferinţele mele atrag aici un număr foarte mare de
 oameni din cea mai bună societate, oameni culţi, bogaţi şi celebri. Excelentă publicitate
 pentru dumneata. De fapt, vei cheltui 5000 de dolari pentru anunţuri prin gazete şi tot nu vei
@@ -8449,7 +8449,7 @@ Iată unul dintre cele mai bune sfaturi care a fost vreodată formulate asupra a
 mînui oamenii. El este dat de Henry Ford: "Secretul succesului - dacă există - este
 facultatea de a ta pune în locul altuia şi de a considera lucrurile din] punctul lui de vedere tot
 cât şi din al tău".
-Acest adevăr este atât de simplu, atât de evident şi totuşi 90 la sută din indivizi âl ignoră.
+Acest adevăr este atât de simplu, atât de evident şi totuşi 90 la sută din indivizi îl ignoră.
 Un exemplu ? Studiaţi scrisorile pe care le veţi primi mâine la birou şi veţi constata că
 cele mai multe din ele violează această regulă a bunului simţ. Iată un document autentic
 redactat de directorul unei importante agenţii de publicitate radio-fonice. Această circulară
@@ -8457,14 +8457,13 @@ fusese adresată directorilor staţiilor T.F.F. din întreaga ţară. (Am indica
 reflexiile mele la lectura diferitelor paragrafe).
 Mr. John Blank Blankville (Indiana)
 Dragă domnule Blank,
-Compania Megauox doreşte să-şi păstreze locul preponderent pe care întotdeauna l-
-a avut in domeniul publicităţii radiofonice.
+Compania Megauox doreşte să-şi păstreze locul preponderent pe care întotdeauna l-a avut în domeniul publicităţii radiofonice.
 (Puţin îmi pasa de ceea ce doreşti. Am eu grijile mele „ Banca refuză să înnoiască ipoteca
 asupra casei mele” cursurile de la bursă au înregistrat ieri scăderi... am pierdut trenul azi
 dimineaţă... nu am fost invitat la serata lui Jones... doctorul mi-a spus că am tensiune
 arterială, nevrită şi... mătreaţa pe deasupra. Şi colac peste pupăză! Vin la birou, preocupat şi
 destul de prost dispus ; îmi deschid poşta şi dau peste acest mic pretenţios oare-mi scrie de
-la New-York ca să-mi spună de .proiectele lui si de dorinţele lui. Of! Dacă ar bănui efectul
+la New-York ca să-mi spună de .proiectele lui și de dorinţele lui. Of! Dacă ar bănui efectul
 ce-mi face scrisoarea lui, ar părăsi imediat publicitatea pentru a se apuca să fabrice
 muştar!...).
 10
@@ -8480,7 +8479,7 @@ Dorim să furnizăm clienţilor noştri ultimele informaţii în privinţa diver
 radiofonice.
 (Doriţi! Doriţi! Doriţi! Cretini ce sunteţi! Puţin îmi pasă ce doriţi sau ce doreşte Mussolini sau
 Rarnon Navarre! Băgaţi-va în cap că, pentru a fi interesanţi, trebuie să nu vorbiţi de ceea ce
-eu doresc. Nu aţi pomenit nici un cuvânt despre asta in scrisoarea voastră stupidă!).
+eu doresc. Nu aţi pomenit nici un cuvânt despre asta în scrisoarea voastră stupidă!).
 Veţi binevoi deci să ne furnizaţi cu priorităţi toate amănuntele relative la programul şi
 orarul dvs. care ne sînt necesare în fiecare săptămână, pentru a alege cel mai nimerit timp
 de emisiune.
@@ -8514,11 +8513,11 @@ M.M.A. Zerega şi fii Fabrică de paste alimentare
 Domnilor,
 Operaţiile noastre de încurcătură sînt handicapate prin faptul că o mare parte din
 mărfuri ne parvin abia la sfârşitul după amiezii. Rezultă îmbulzeala serviciului, orele
-suplimentare de lucru si întârzierea camioanelor şi chiar a pachetelor. Soliciţi colaborarea
+suplimentare de lucru și întârzierea camioanelor şi chiar a pachetelor. Soliciţi colaborarea
 11
 dv. pentru a evita inconvenientele regretabile create prin această stare de lucruri. în
 consecinţă, ne permitem a va cere, dacă e posibil, ca zilele în care expediaţi cantităţi mari de
-mărfuri aveţi grijă să ne parvină mai curând camioanele si ca o parte din expediţie să ne fie
+mărfuri aveţi grijă să ne parvină mai curând camioanele și ca o parte din expediţie să ne fie
 livrată dimineaţa. Datorită acestei înţelegeri, veţi avea avantajul unei descărcări mai rapide a
 camioanelor dv. şi siguranţa că expediţia dv. va fi efectuată cu promptitudine.
 Binevoiţi a primi...
@@ -8667,7 +8666,7 @@ Deci, consultaţi adesea aceste pagini. Cartea de faţă să vă fie manualul, c
 raporturile cu semenii. Şi când vă veţi găsi în faţa unei probleme neobişnuite, ca de exemplu
 aceea de a corija un copil, de a împărtăşi părerea dv. nevestei, de a satisface pe un client
 14
-supărăcios, reflectaţi înainte de a face gestul natural. Rezistaţi pornirii dv. dintâi. In general
+supărăcios, reflectaţi înainte de a face gestul natural. Rezistaţi pornirii dv. dintâi. în general
 ea este nefastă.
 VII. Oferiţi soţiei, fiului, colegului dv. o primă de cinci franci, de pildă, ori de câte ori vă
 prind că aţi încălcat cutare sau cutare precept. Acest exerciţiu să devină pentru dv. un joc
@@ -8692,7 +8691,7 @@ similară pentru a controla felul cum veţi aplica regulile aici descrise ? Dac�
 lucruri se vor produce sigur:
 A) În primul rând, veţi întreprinde un studiu în acelaşi timp pasionant şi de o valoare
 educativă incomparabilă;
-B) În al doilea rând, facultatea dv. de a plăcea şi a influenţa pe alţii va creşte si se va
+B) În al doilea rând, facultatea dv. de a plăcea şi a influenţa pe alţii va creşte și se va
 dezvolta ca un laur.
 Să rezumăm. Pentru a trage maximum de foloase din cartea de faţă trebuie:
 I.
@@ -8732,7 +8731,7 @@ această lege. Ei vor cu orice preţ ca alţii să se intereseze de ei. Zadarnic
 nu se gândesc la dv. Nu se gândesc la mine. Ei se gândesc numai la ei: dimineaţa, la prânz
 şi seara.
 Compania de Telefoane din New-York a făcut o anchetă pentru a afla care este
-cuvîntul cel mai des întrebuinţat in timpul conversaţiilor. Rezultatul? Ei bine, aţi ghicit!... Este
+cuvîntul cel mai des întrebuinţat în timpul conversaţiilor. Rezultatul? Ei bine, aţi ghicit!... Este
 pronumele personal "eu", "eu"... Când examinaţi fotografia unui grup din care faceţi parte,
 care este persoana pe care o priviţi mai întâi ?
 Dacă credeţi că lumea se interesează de dv. răspundeţi la întrebarea aceasta: ,,Câte
@@ -8741,7 +8740,7 @@ De ce s-ar interesa alţii de dv., dacă nu vă interesaţi mai întâi dv. de e
 creion şi răspundeţi la această întrebare.
 Dacă ne străduim să impresionăm pe semenii noştri, să atragem atenţia lor asupra
 noastră, nu, vom avea niciodată prieteni sinceri. Prietenii adevăraţi nu se câştigă astfel.
-Napoleon o ştia bine si în ultima sa întrevedere cu Josefina i-a spus: "Am fost
+Napoleon o ştia bine și în ultima sa întrevedere cu Josefina i-a spus: "Am fost
 binecuvântat cum nu oricine pe acest pământ. Şi totuşi, în acest moment, tu eşti singura
 persoană pe lume pe care pot conta". Şi istoricii se întreabă dacă se putea bizui; chiar şi pe
 dânsa...
@@ -8819,7 +8818,7 @@ ardă de viu, să-l sfâşie. Or, în această dezlănţuire de ură, s-a găsit
 Kaizerului o scrisoare simplă şi sinceră, plină de simpatie şi admiraţie.
 Copilul mărturisea că ori ce-ar crede restul lumii, el îl va iubi întotdeauna pe împăratul
 lui. Wilhelm a fost adânc mişcat de acest mesaj şi l-a invitat pe băieţel la dânsul, în Olanda.
-Acesta a venit însoţit de mama sa si toate s-au sfârşit printr-o căsătorie. Iată un puşti care nu
+Acesta a venit însoţit de mama sa și toate s-au sfârşit printr-o căsătorie. Iată un puşti care nu
 avea nevoie să citească cărţi asupra artei de a se face plăcut. El avea acest har de la
 natură.
 Sunt câţiva ani buni de când notez cu grija într-un carnet zilele de naştere ale amicilor
@@ -8828,7 +8827,7 @@ mei. Cum fac să le descopăr ? Simplu. Cu toate că nu cred deloc în astrologi
 interesez apoi de luna şi ziua naşterii sale. Dacă răspunde: 24 noiembrie, de exemplu, scriu
 această dată în carnetul meu. La începutul anului însemn fiecare aniversare pe pagina
 corespunzătoare a calendarului, astfel că la timpul cuvenit îmi atrage atenţia în mod
-automat. In ziua respectivă expediez scrisoarea sau o telegramă de felicitare. Ce surpriză!
+automat. în ziua respectivă expediez scrisoarea sau o telegramă de felicitare. Ce surpriză!
 Ce succes i Adesea sînt singurul care şi-a amintit de aniversare.
 Vreţi să vă faceţi simpatizat ? Atunci vorbiţi cu căldură. La telefon, de asemenea,
 răspundeţi "alo" pe un ton care arată că vă bucuraţi că auziţi glasul care vă cheamă.
@@ -8877,7 +8876,7 @@ care mi-ar furniza mai bine ca dv. informaţiile de care am nevoie. Doresc să a
 această dezbatere şi v-aş fi foarte recunoscător de ajutorul ce mi l-aţi putea da..."
 Iată sfârşitul acestei poveşti relatat de Knaphle însuşi:
 "Cerusem acestui om numai câteva minute din timpul său ; sub această condiţie
-consimţise să mă primească. Or, după ce m-a ascultat, m-a poftit si şed, apoi mi-a vorbit
+consimţise să mă primească. Or, după ce m-a ascultat, m-a poftit și şed, apoi mi-a vorbit
 timp de un ceas. şi patruzeci de minute despre realul serviciu pe care-l fac întreprinderile cu
 multe sucursale umanităţii. Era mândru că datorită Casei sale sute de oraşe sînt
 aprovizionate mai sănătos, mai repede, mai avantajos. în timp ce vorbea, ochii Iui luceau de
@@ -8944,7 +8943,7 @@ oamenilor care nu m-au văzut niciodată amabil.
 Împart biroul meu cu un alt agent de schimb care are un colaborator, un băiat foarte
 simpatic. Am fost atât de încântat de rezultatele noii mele filosofii, incit am împărtăşit-o şi
 colegului meu. El îmi mărturisi că la început m-a găsit foarte dezagreabil şi că nu şi-a
-schimbat părerea despre mine decât în ultima vreme. Nu mai critic pe nimeni; in loc de a
+schimbat părerea despre mine decât în ultima vreme. Nu mai critic pe nimeni; în loc de a
 blama, încurajez şi laud. Nu mai vorbesc altora de preocupările mele; încerc mai degrabă să
 le pricep pe-ale lor. Această nouă tactică a mea mi-a revoluţionat cu desăvârşire viaţa.
 Aducându-mi şi avantaje materiale, ea a făcut din mine alt om, fericit, binefăcător, în conjurat
@@ -8994,7 +8993,7 @@ CAPITOLUL III - Dacă nu veţi urma acest principiu... cu atât mai rău pentru 
 În Rockland Country, din statul New-York, s-a produs un eveniment tragic. Un copil a
 murit şi vecinii familiei se pregăteau pentru înmormântare. Unul dintre ei, Joe Farley s-a dus
 să-şi scoată calul din grajd ca să-l înhame. Era un frig înţepător, pământul era acoperit cu
-zăpadă, animalul nu mai fusese scos de câteva zile. In timp ce stăpânul său îl ducea la
+zăpadă, animalul nu mai fusese scos de câteva zile. în timp ce stăpânul său îl ducea la
 adăpost, calul se învârti în loc, azvârlind din copite şi-l izbi atât de puternic pe Farley încât âl
 ucise pe loc. Astfel că, în acea săptămână,: sătucul Stony Point avu două înmormântări în
 loc de una.
@@ -9145,7 +9144,7 @@ mai ales la preţul ăsta. E de vină vopseaua!". Fier-i beam de mânie, mi-a m�
 Primul vânzător insinua că sînt de rea credinţă ; al doilea îmi dădea să-nţeleg că am
 cumpărat un articol de calitate inferioară. Mi-am ieşit din sărite, era să le arunc cu costumul
 în cap şi să-i dau dracului când deodată a apărut în scenă şeful raionului... Un om care-şi
-cunoştea meseria. El transformă un om furios într-un client satisfăcut! Cum ? In felul
+cunoştea meseria. El transformă un om furios într-un client satisfăcut! Cum ? în felul
 următor: Întâi, a ascultat povestea de la început până la sfârşit fără a scoate un cuvânt.
 Apoi, când am terminat şi cei doi vânzători şi-au expus şi ei argumentele, le-a răspuns,
 punându-se în locul meu şi întrebându-mă: "Domnule, spuneţi-ne ce avem de făcut cu acest
@@ -9184,7 +9183,7 @@ cu blândeţe: "Vă mulţumesc c-aţi venit la Chicago să-mi expuneţi cazul. �
 serviciu, întrucât contabilitatea noastră v-a supărat şi este în stare să supere alţi clienţi buni
 şi asta n-o dorim. Credeţi-mă, sînt mai nerăbdător să vă ascult nemulţumirile, decât vreţi dv.
 să le povestiţi. Era într-adevăr răspunsul ce-l aştepta cel mai puţin. Cred că era chiar
-dezamăgit fiindcă făcuse călătoria special ca să-mi tragă o săpuneală. Şi iată, in loc să mă
+dezamăgit fiindcă făcuse călătoria special ca să-mi tragă o săpuneală. Şi iată, în loc să mă
 încaier cu el, eu îi ofeream mulţumirile noastre! I-am promis să-i anulez datoria, i-am spus
 că-i înţeleg toate sentimentele şi că, dacă aş fi fost în locul său aş fi procedat la fel. Pe de
 altă parte, cum avea să nu mai cumpere de la noi, i-am recomandat alţi furnizori similari.
@@ -9210,7 +9209,7 @@ Garfield, atunci candidat la preşedinţie, l-a întrebat clacă e adevărat că
 şalupele de-a lungul canalului. Şi Garfield i-a răspuns... De asemenea, l-a rugat pe generalul
 Grant să-i dea detaIii asupra uneia din bătăliile sale. Atunci Grant i-a desenat o hartă şi l-a
 invitat la masă Boit n-avea atunci decât 14 ani), petrecându-şi seara cu el. I-a scris şi lui
-Emerson, rugându-l să-i dea desluşiri asupra vieţii şi operei sale. In curând, micul funcţionar
+Emerson, rugându-l să-i dea desluşiri asupra vieţii şi operei sale. în curând, micul funcţionar
 de la Western Union se găsea în legătură cu un mare număr de persoane celebre din
 Americi. Nu numai că coresponda cu ei, dar în vacanţă a fost chiar invitatul unora dintre
 25
@@ -9280,7 +9279,7 @@ cercetaşii ai căror părinţi sînt nevoiaşi şi a ocupat un rol activ în as
 Este aceasta o metodă recomandată în raporturile comerciale ? Să luăm cazul lui
 Henry G. Duverfnoy, care conducea una dintre cele mai mari casa producătoare de biscuiţi
 din New-York. De patru ani el încerca să-şi vândă biscuiţii şi pâinea la unul dintre hotelurile
-New-Yorkului. In fiecare săptămână se ducea la director. Ba s-a instalat chiar şi întruna din
+New-Yorkului. în fiecare săptămână se ducea la director. Ba s-a instalat chiar şi întruna din
 camerele hotelului pentru a-l putea "lucra" mai bine pe acesta. Rezultatul: nul. După ce a
 urmat cursul nostru, s-a decis să schimbe strategia.! Se strădui să descopere gusturile şi
 părerile omului de care avea nevoie. ,,Am aflat, povestea el mai târziu, că face parte, ba
@@ -9424,7 +9423,7 @@ Regula VI. Faceţi-i în chip sincer să-şi simtă importanţa.
 PARTEA a III-a - 12 MIJLOACE DE A OBŢINE CONSENSUL
 CAPITOLUL I. - Într-o discuţie nu există niciodată învingător
 Puţin după război am primit o lecţie preţioasă. Pe vremea aceea eram managerul lui
-Sir Ross Smith şi asistam într-o seară la un banchet dat în onoarea sa. In timpul mesei,
+Sir Ross Smith şi asistam într-o seară la un banchet dat în onoarea sa. în timpul mesei,
 vecinul meu mi-a istorisit o poveste în care se afla citatul următor: "Există un Dumnezeu care
 aranjează destinele noastre după placul său, oricare ar fi voinţa noastră". Povestitorul
 pretindea că acest citat provine din Biblie. Se înşela, îl cunoşteam. Eram sigur. De aceea,
@@ -9495,7 +9494,7 @@ preşedinţia lui Wilson, declara "că e imposibil să-l convingi pe un ignorant
 Un ignorant! Eşti modest, domnule Mc Adoo! O lungă experienţă m-a învăţat că e
 imposibil să schimbi prin logică părerea oricărui om, oricare ar fi fost gradul inteligenţei sau
 al culturii sale!
-Constant, primul valet al lui Napoleon, juca adesea biliard cu Josefina. In "Amintirile
+Constant, primul valet al lui Napoleon, juca adesea biliard cu Josefina. în "Amintirile
 vieţii particulare a lui Napoleon" el scria: "Cu toate că aveam oarecare îndemânare, făceam
 întotdeauna în aşa fel ca ea să câştige, ceea ce-i făcea o mare plăcere..."
 Din exemplul lui Constant să luăm o învăţătură... constantă. Să lăsăm clienţilor,
@@ -9505,7 +9504,7 @@ nu este risipită printr-o discuţie, ci prin tact, diplomaţie şi dorinţa gen
 locul adversarului.
 Într-o zi, Lincoln a spus: "Omul care vrea să se ridice nu are timp de pierdut în certuri.
 Acestea înăcresc caracterul şi te fac să-ţi pierzi controlul asupra ta. Nu vă temeţi de a face
-concesii. Mai bine să cedezi calea unui câine, decât să te muşte certându-te cu el si nevoind
+concesii. Mai bine să cedezi calea unui câine, decât să te muşte certându-te cu el și nevoind
 să-l laşi să treacă. Căci chiar omorând câinele, nu veţi anula efectul muşcăturii". Cel mai bun
 mijloc de a triumfa într-o cearta este de a o evita!
 CAPITOLUL II - Un mijloc fără greş de a-ţi face duşmani. Cum să-l ocolim ?
@@ -9664,7 +9663,7 @@ când m-am învinovăţit eu însumi, singurul mod de a-şi păstra stima era s�
 Deci, când ştim că merităm vreo pedeapsă mai bine s-o luăm înainte cu curaj şi să ne
 facem mea culpa.
 Grăbiţi-vă de a spune dv. toate lucrurile neplăcute pe care cealaltă persoană e gata
-să le exprime, spuneţi-le înainte si o veţi dezarma. Sunt 99 la sută şanse ca ea să adopte o
+să le exprime, spuneţi-le înainte și o veţi dezarma. Sunt 99 la sută şanse ca ea să adopte o
 atitudine generoasă şi ca să închidă ochiul asupra greşelii voastre, ca jandarmul din Forest
 Park.
 35
@@ -9702,10 +9701,10 @@ sînt formulate în scris şi sînt nesemnate; astfel că autorii lor îşi pot 
 mai intime.
 După un asemenea examen, un tânăr a venit disperat la mine. Criticii săi îl biciuiseră
 ca pe un ocnaş, tratându-l cu epitetele cele mai urâte.
-La şedinţa următoare, "vinovatul" s-a ridicat si a citit cu glas tare insultele ce i-au fost
+La şedinţa următoare, "vinovatul" s-a ridicat și a citit cu glas tare insultele ce i-au fost
 aduse. par în loc să-i condamne pe judecători, aşa cum fusese ispitit, el le-a spus:
 "Prieteni, văd că nu vă sînt deloc simpatic. Mi-a fost penibil să citesc criticile, dar ele
-mi-au fost folositoare. Mi-au dat o admirabilă lecţie. In fond nu sînt decât un biet băiat şi am
+mi-au fost folositoare. Mi-au dat o admirabilă lecţie. în fond nu sînt decât un biet băiat şi am
 nevoie de prietenie la fel ca şi alţii. Vreţi să mă ajutaţi ? Vreţi să-mi spuneţi sincer ce trebuie
 să fac ca să mă perfecţionez ? Voi face totul ca să mă îndrept". Nu era o comedie. Tânărul
 era sincer, de aceea i-a mişcat pe colegii săi. Ei i-au lăudat sinceritatea, umilinţa, dorinţa de
@@ -9737,7 +9736,7 @@ bântuit de cea mai sângeroasă grevă ce s-a cunoscut vreodată în istoria in
 americane. Minerii Societăţii de Combustibile şi Metale din Colorado - condusă de
 Rockefeller - reclamau o mărire de salariu. Materiale şi uzine fuseseră devastate ; poliţia
 fusese chemată să intervină; sângele cursese pe străzi şi mulţi mineri căzuseră sub gloanţe.
-într-o astfel de clipă, intr-o atmosferă de ură si răzbunare, Rockefeller hotărî să-i câştige pe
+într-o astfel de clipă, intr-o atmosferă de ură și răzbunare, Rockefeller hotărî să-i câştige pe
 revoltaţi la cauza sa şi să încheie pacea cu dânşii.
 După ce a preparat terenul săptămâni de-a rândul printr-o propagandă activă în rândul
 populaţiei, Rockefeller le-a ţinut un discurs greviştilor adunaţi. Acest discurs a fost o
@@ -9756,7 +9755,7 @@ sînt fericit să pot discuta cu voi despre interesele noastre comune.
 Numai amabilităţii dv. îi datorez faptul că am fost admis în această adunare de
 directori ai Companiei şi de reprezentanţi ai personalului, căci nu aparţin nici primului, nici
 celui de-al doilea grup, Şi totuşi, mă simt strâns legat de voi, căci, într-un fel, reprezint în
-acelaşi timp atât patronatul, cât si pe lucrători..."
+acelaşi timp atât patronatul, cât și pe lucrători..."
 Nu este acesta cel mai magnific exemplu al artei de a-i transforma pe vrăjmaşi în
 prieteni ?
 Dacă un om vă urăşte, nu veţi izbuti, cu toate argumentele din lume, să-l aduceţi la
@@ -9949,7 +9948,7 @@ urmă de bănuială.
 - Pentru că păsările mele sînt Leghorns, care fac doar ouă albe. Şi ştiţi de bună
 seamă că ouăle albe nu sînt atât de bune precum cele cafenii pentru o bună patiserie.
 Nevastă-mea ţine foarte mult la reuşita prăjiturilor ei.
-Bătrâna ieşi în cerdac şi se arătă mai amabilă. In acest timp observasem o lăptărie ce
+Bătrâna ieşi în cerdac şi se arătă mai amabilă. în acest timp observasem o lăptărie ce
 părea bine gospodărită. Continuai!
 - De altminteri, sînt convins că aveţi mai mare câştig cu găinile decât domnul
 Druckenbord cu lăptăria.
@@ -10041,7 +10040,7 @@ fi pe plac şi că în schimb, contam pe întregul lor devotament. Astfel ,, reu
 sprijine formele radicale în legislaţie".
 Graţie acestei metode, un fabricant de instalaţii radiografice a reuşit să vândă
 aparatele unuia dintre cele mai mari spitale din Brooklyn. Tocmai fusese cumpărat un
-serviciu de radiografie, cel mai modern şi mai perfecţionat din America. Doctorul si şeful
+serviciu de radiografie, cel mai modern şi mai perfecţionat din America. Doctorul și şeful
 serviciului, era mereu asaltat de diverşi reprezentanţi de aparate, fiecare lăudându-şi marfa.
 Totuşi, unul dintre aceştia se arătă mai priceput decât concurenţii săi, cunoscând mai bine
 ca ei natura omenească. El scrise doctorului următoarea scrisoare:
@@ -10103,7 +10102,7 @@ asculte. Nici o supărare, nici o ranchiună. Nimeni nu i-a obligat să se supun
 colaborat cu mine, din propriul lor îndemn. Cu toţii eram satisfăcuţi, pentru că acum ştiusem
 să iau în considerare punctul lor de vedere.
 Profesorul care ţine un curs comercial la Universitatea din Harvard spunea: "Prefer
-să mă plimb in sus şi în jos două ore, în faţa biroului unui client, decât să intru la el fără a şti
+să mă plimb în sus şi în jos două ore, în faţa biroului unui client, decât să intru la el fără a şti
 dinainte ce-i voi spune şi-mi va răspunde".
 Deci, dacă vreţi să îndreptaţi oamenii fără a-i I enerva sau ofensa, încercaţi de a-i
 înţelege. Aceasta este regula nr. VIII,
@@ -10428,7 +10427,7 @@ Tot aşa, un tânăr din Londra dorea să devină scriitor. Nu avea decât o vag
 său fusese închis pentru neplata datoriilor. Cunoştea adesea chinul foamei. în fine, şi-a găsit
 o ocupaţie: avea să lipească etichete pe flacoanele de coloranţi, într-un antrepozit unde
 mişunau guzganii. Noaptea dormea Intr-o mansardă oribilă, împreună cu doi golani. Avea
-atât de puţină încredere în el şi era atât de sensibil la batjocură, că numai In toiul nopţii avea
+atât de puţină încredere în el şi era atât de sensibil la batjocură, că numai în toiul nopţii avea
 curajul să-şi ducă manuscrisele la cutia de scrisori. Unul după altul, acestea îi erau refuzate.
 In sfârşit, sosi şi ziua cea mare: una din povestirile lui fu acceptată. Nu i se plătea nimic, e
 adevărat, dar puţin îi păsa. Editorul îl felicita. Cineva găsea că avea talent. Era atât de fericit
@@ -10467,7 +10466,7 @@ Deci, dacă voiţi să schimbaţi o persoană fără a o jigni şi supăra... Da
 reputaţie de meritat. Este regula nr. 7.
 CAPITOLUL VIII - Ce uşoare par greşeala de îndreptat şi sarcina de îndeplinit l
 Spuneţi unul copil, unul soţ, unui slujbaş că-i prost, că n-are nici o dispoziţie pentru
-cutare lucru sau joc, că nu pricepe nimic şi distrugeţi in el orice dorinţă de perfecţionare. Dar
+cutare lucru sau joc, că nu pricepe nimic şi distrugeţi în el orice dorinţă de perfecţionare. Dar
 încercaţi tactica opusa. Încurajaţi-l şi sarcina de îndeplinit fi va părea uşoară Arătaţi celui pe
 care vreţi să-l stimulaţi că aveţi încredere în capacitatea lui, spuneţi-i că are an talent pe care
 nu-l bănuieşte şi-l veţi vedea cum va trudi să atingă perfecţiunea.
@@ -10599,7 +10598,7 @@ erau făcute; am strigat când ţi-ai aruncat jucăriile pe jos. La dejun, te-am
 laptele, înghiţeai fără să mesteci, puneai coatele pe masă, întindeai prea mult unt pe pâine...
 La plecare, te-ai întors şi mi-ai zis: "La revedere, tată". Şi ţi-am răspuns încruntând
 sprâncenele: ţin-te drept: Seara, acelaşi cântec. Întorcându-mă de la lucru te-am pândit pe
-drum. Te jucai cu bilele, In genunchi, în praf, îţi rupseseşi ciorapii. Te-am umilit faţă de
+drum. Te jucai cu bilele, în genunchi, în praf, îţi rupseseşi ciorapii. Te-am umilit faţă de
 camarazii tăi când ţi-am poruncii să ta duci înaintea mea acasă...
 Iţi aminteşti, apoi ? Te-ai strecurat sfios, cu un aer nenorocit, în biroul meu, în timp ce
 lucram. Am ridicat ochii: "Ce este ?" N-ai răspuns nimic, dar. Într-un elan irezistibil, ai alergat
@@ -10618,7 +10617,7 @@ că nu eşti decât un copil. Abia ieri mai erai în braţele mamei tale, cu cap
 aşteptat prea mult de la tine... Prea mult pentru frăgezimea ta...".
 CAPITOLUL IV - Vă e uşor să faceţi fericiţi pe cei din jurul Dv.
 Cunoaşteţi această fabulă. După o zi lungă de trudă, o fermieră puse în faţa
-lucrătorilor ei, In ioc de cină, un braţ cu fân. Şi cum aceştia o întrebară indignaţi dacă a
+lucrătorilor ei, în ioc de cină, un braţ cu fân. Şi cum aceştia o întrebară indignaţi dacă a
 55
 înnebunit, ea le răspunse: "De unde să ştiu eu care e deosebirea ? De 20 de ani de când
 gătesc pentru voi, niciodată nu mi-aţi spus un cuvânt ca să mă faceţi să înţeleg că nu era fân
@@ -10694,7 +10693,7 @@ din punct de vedere intelectual ?
 SCRISOARE CATRE UNII TINERI
 Începeţi viaţa în vremuri grele. Se urcă uneori în istorie valuri care poartă spre
 izbândă până şi pe cei mai slabi înotători. Generaţia voastră înoată împotriva curentului, într-
-o mare furtunoasă. Acest lucru este greu. In primele clipe veţi fi înăbuşit şi veţi fi descurajat
+o mare furtunoasă. Acest lucru este greu. în primele clipe veţi fi înăbuşit şi veţi fi descurajat
 că veţi mai ajunge la mal. Nu vă speriaţi. Alţii, înaintea voastră, au întâlnit valuri tot atât de
 înalte şi n-au fost acoperiţi de ele. Cu dibăcie şi curaj veţi rezista până când va veni din nou
 linişte.
@@ -11165,7 +11164,7 @@ prin moarte!
 FAGEN
 Fagen lucra, într-adevăr, pe două fronturi. Iniţial fusese un centru de
 medicină experimentală, dar mai erau şi bombele.
-În primele zile am fost repartizat la munci de terasa-ment. Trebuia ă ne
+În primele zile am fost repartizat la munci de terasa-ment. Trebuia să ne
 spetim precum ocnaşii săpând pământul de la cinci dimineaţa la şase seara,
 fără altă hrană decât o zeamă chioară în care era mai multă apă decât făină, ce
 ne era servită de trei ori pe zi. Apoi s-a ivit prilejul nesperat, pe care m-am
@@ -11900,7 +11899,7 @@ zeamă de hârdău? Vino-ncoace, scursură de gunoi pe două picioare.
 Se urcă pe un scaun iar Schnitzius trebui să-i dea ceainicul.
 23
 — Dreeepţi! Capul pe spate şi deschide botul!
-Încet, întreg conţinutul se scurse in gura deschisă a lui Schnitzius,
+Încet, întreg conţinutul se scurse în gura deschisă a lui Schnitzius,
 aproape sufocându-l. După ce termină, turbatul subofiţer zvârli recipientul de
 perete, ieşi în goană din dormitor, iscând mare gălăgie în sala de baie, de
 unde, pe rând, ieşi cu vreo şase găleţi pline pe care le azvârli din zbor pe
@@ -13106,7 +13105,7 @@ către bombardierele ata-cotoare, bum, bum, bum, iar mitralierele ţăcăneau
 care mai de care mai tare.
 Ghemuiţi lângă pasarelă, speriaţi, dar în acelaşi timp şi păcut stârniţi —
 oare nu era acesta botezul focului? — căutam în zadar să ne dăm seama ce se
-întâmpla. Avioanele reveneau acum năpustindu-se in picaj spre noi, mugind
+întâmpla. Avioanele reveneau acum năpustindu-se în picaj spre noi, mugind
 furios, apoi un şuierat caracteristic acoperi zgomotul motoarelor şi Bătrânul
 urlă:
 — Pe burtă! Asta-i pentru noi!
@@ -13311,7 +13310,7 @@ adusă regelui Italiei. Şi, pentru că tot veni vorba, oare la curtea capetelor
 încoronate latrinele or fi pluşate şi din aur? Îşi lăsă pantalonii în vine şi se
 aşeză cu fundul peste marginea ambarcaţiunii. Din când în când câte un val îi
 biciuia posteriorul.
-— Uiii! mă gâdilă, la naiba! In schimb e foarte higienic. Ar trebui să
+— Uiii! mă gâdilă, la naiba! în schimb e foarte higienic. Ar trebui să
 încerci şi tu. E chiar mai plăcut decât la curtea regelui Italiei...
 — Porta, nu mai ai haz.
 Vitalitatea lui mă uluia şi mă obosea, pentru mine era la fel ca un zid alb
@@ -13798,7 +13797,7 @@ uniforme kaki, bărbaţi din toate armele şi armatele Europei Centrale adunaţi
 monoclu şi sfârşind cu pifanii păduchioşi şi jegoşi.
 Cei mai mulţi dintre civilii ruşi purtau haine vătuite, incredibil de
 zdrenţăroase şi încălţări de pâslă fără nici o formă. Am întâlnit vreo câteva
-femei în vârstă purtând fiecare câte un sac mare in spinare, sporovăind ca
+femei în vârstă purtând fiecare câte un sac mare în spinare, sporovăind ca
 nişte coţofene. Deodată una dintre ele se opri, îşi desfăcu picioarele şi în clipa
 61
 următoare se slobozi răsunător, în timp ce la picioarele ei se lăţea o băltoacă.
@@ -14212,7 +14211,7 @@ fuseseră făcuţi terci cu lovituri date cu patul armei şi cu biciul căzăces
 Pentru ei sunase ora răfuielilor.
 PRIZONIERATUL
 Noaptea târziu am fost adunaţi, cam două mii de oameni, într-o coloană
-lungă care se puse in mişcare către est, sub paza strictă a cavaleriştilor. Era
+lungă care se puse în mişcare către est, sub paza strictă a cavaleriştilor. Era
 interzis cu desăvârşire a ieşi din rânduri, aşa că eram nevoiţi să ne uşurăm
 din mers, în pantaloni. Biciul îi punea din nou pe picioare pe cei ce cădeau în
 zăpadă. Iar dacă nu izbuteau, cădeau sub sabia cavaleriştilor. Trei zile de
@@ -14475,7 +14474,7 @@ Mai adăugaţi la acestea că Rusia se afla în război şi veţi înţelege les
 condiţiile de viaţă cât şi cele de muncă nu puteau fi normale.
 Am cunoscut un comunist german, Bernhard Kruse, din
 Berlin-Lichterfelde. Fusese pe baricade în timpul luptelor de după primul
-război mondial. In 1942 trecuse in Rusia Sovietică, unde comuniştii l-au
+război mondial. în 1942 trecuse în Rusia Sovietică, unde comuniştii l-au
 primit cu braţele deschise. De profesie era mecanic montor şi îşi făcuse o
 situaţie bună la o uzină din Leningrad, ca instructor a câtorva sute de
 muncitori. Câştiga bine, se bucura de privilegiile cetăţeanului sovietic de rang
@@ -14612,7 +14611,7 @@ nord de Alatir. La plecare fuseseră patru, dar unul căzuse sub roţile trenulu
 iar altul nimerise direct în braţele a trei soldaţi ruşi.
 Cu harta în mână — pe care o furasem înainte de a părăsi lagărul —
 ne-am pus de acord că nu trebuia să mergem mai departe de Saratov, în
-direcţia mării Caspice. Cel mai bine ar fi fost să încercăm a ajunge in bazinul
+direcţia mării Caspice. Cel mai bine ar fi fost să încercăm a ajunge în bazinul
 Volgăi, la nord-vest de Stalingrad, acolo unde se găseau trupele noastre în
 77
 prezent. Cei doi „compatrioţi" ai mei fuseseră înhăţaţi cu patru luni în urmă, la
@@ -14960,7 +14959,7 @@ suplineam colegii lăsându-i să stea — o adevărată scenă de propagandă �
 spiritul şefilor iubiţi — dar asta doar pentru că vântul era tăios ca briciul şi
 mişcarea era singura cale de a te încălzi.
 Ridicându-şi mâna, Bătnnul declamă poetic:
-— Copiii mei. scumpii mei, nu-i minunat să stai aici in aer liber şi să sapi
+— Copiii mei. scumpii mei, nu-i minunat să stai aici în aer liber şi să sapi
 această groapă superbă? Vedeţi, soarele se ridică şi nu trebuie să ne mai fie
 frică de Moş Crivăţ! Totul este liniştit, copii, micuţele păsărele ale Domnului
 ne vor cânta şi dacă vom fi cuminţi, cu adevărat cuminţi. Bătrânul Moş al
@@ -15610,7 +15609,7 @@ facem remarcaţi. Al doilea tanc a luat poziţie în spatele unei clădiri lungi
 Bătrânul a venit lângă mine ca să se asigure că am ochit bine, căci o
 lovitură ratată în condiţiile acestea ne-ar fi condamnat la moarte. Turela se
 roti, aveam al doilea tanc în vizor. Foc! La această distanţă obuzul a smuls pur
-şi simplu turela tancului rusesc. Cele două T-34 sunt in flăcări când sărim în
+şi simplu turela tancului rusesc. Cele două T-34 sunt în flăcări când sărim în
 ajutorul camaradului care, după violenţa schimbului de focuri, nu este tocmai
 stăpân pe situaţie.
 Nu făcusem nici două sute de metri când ne-am trezit cu un KW-2 în faţă,
@@ -15868,7 +15867,7 @@ flăcările şi asasinatele intrate în rutină, mă otrăvise ca pe toţi ceila
 102
 Chiar şi nazistul cel mai fanatic trebuia să admită că marea ofensivă
 germană era un eşec, iar noi nu făceam decât să ne retragem. Un ultim efort,
-pe toată lungimea frontului, pentru a încerca să răsturnăm, in extremis,
+pe toată lungimea frontului, pentru a încerca să răsturnăm, în extremis,
 norocul armelor. Compania noastră, ajunsă până la Biriuţk, a surprins o
 unitate de cavalerie aflată în refacere şi a distrus-o. În câteva minute am
 transformat oameni şi cai într-o masă hăcuită. Oamenii epuizaţi urlau,
@@ -16027,7 +16026,7 @@ care se întorceau în trenul lor blindat, întorcând spatele, ostentativ, tren
 sanitar ce se pusese în mişcare. N-am încercat nici eu să mă uit în urmă, dar
 îmi imaginez cele trei fete pline de tandreţe, privindu-ne din spatele unui
 geam. Nu trei infirmiere, ci trei femei care copleşiseră trei bărbaţi cu darurile
-lor şi primiseră in aceeaşi măsură ceea ce dăruiseră. Atât de repede şi atât de
+lor şi primiseră în aceeaşi măsură ceea ce dăruiseră. Atât de repede şi atât de
 deplin...
 Cu ochii zâmbăreţi, am urcat în vagon.
 Chiar şi Porta tăcea, ceea ce demonstrează că şi cel mai cinic poate să
@@ -16837,7 +16836,7 @@ acest fel de dovezi s-ar putea demonstra că „obiceiurile ruseşti" au existat
 într-o măsură mai mare sau mai mică, în toate armatele.
 Eram uneori martorii unor fapte care ne lăsau muţi de uimire. În timpul
 unui atac, de exemplu, câţiva dintre ultimii noştri „soldaţi" de
-şaisprezece-şaptesprezece ani fuseseră luaţi de ruşi. In aceeaşi dimineaţă i-au
+şaisprezece-şaptesprezece ani fuseseră luaţi de ruşi. în aceeaşi dimineaţă i-au
 trimis înapoi, după ce le-au tăiat pantalonii de la uniformă, astfel încât păreau
 îmbrăcaţi cu pantaloni scurţi.
 Pe spatele unuia dintre ei era prins cu ace acest mesaj edificator:
@@ -16997,7 +16996,7 @@ interiorul oraşului ne-am despărţit în mici grupuri de luptă, care au pătr
 separat în Kiev prin diverse puncte. Tancul meu mergea chiar în spatele
 vehiculelor lui Porta şi Bătrânului. Am coborât pe Vosduşfotskoie, apoi am
 traversat o linie de cale ferată şi am mers în lungul străzii Diakova, unde toate
-casele erau ocupate de germani. In sfârşit, am plecat spre Pavolo, la marginea
+casele erau ocupate de germani. în sfârşit, am plecat spre Pavolo, la marginea
 de nord a oraşului. Manevrând printr-un labirint de străduţe şi de treceri
 strimte, am ajuns, în zori, la o veche uzină.
 Optsprezece T-34 şi cinci KW2 erau aliniate în curtea întinsă, încadrate
@@ -17333,7 +17332,7 @@ Mi-a întins un certificat care era de fapt visul oricărui soldat cu mintea
 întreagă:
 „Obergefreiter-ul Ernst Stolpe, din Batalionul 7 vânători de munte poate
 fi considerat grav-rănit, datorită celor trei leziuni importante de la cap. Nu
-trebuie să fie in nici un caz obligat să îndeplinească munei dificile sau
+trebuie să fie în nici un caz obligat să îndeplinească munei dificile sau
 constrâns să poarte echipament greu, în special casca de oţel. În caz de atac
 trebuie trimis imediat la cel mai apropiat spital militar.
 Standort Lazarett 40 Paris
@@ -17649,7 +17648,7 @@ Leibstandarte!
 de femeile fanatice. Să se ducă dracului totul. Hitler a pierdut războiul, ăsta-i
 un fapt. Dar dacă vom vedea, tu şi cu mine, ziua glorioasă a prăbuşirii, asta-i
 138
-cu totul altceva. In curând va fi rândul nostru să intrăm la apă. E caraghios să
+cu totul altceva. în curând va fi rândul nostru să intrăm la apă. E caraghios să
 trăieşti cu speranţa de a vedea totul prăbuşmdu-se cât mai curând! Să bem,
 Sven, asta ne-a mai rămas...
 — Să bem pentru următoarea întâlnire cu o fată frumoasă. Chiar
@@ -18121,7 +18120,7 @@ prin moarte!
 FAGEN
 Fagen lucra, într-adevăr, pe două fronturi. Iniţial fusese un centru de
 medicină experimentală, dar mai erau şi bombele.
-În primele zile am fost repartizat la munci de terasa-ment. Trebuia ă ne
+În primele zile am fost repartizat la munci de terasa-ment. Trebuia să ne
 spetim precum ocnaşii săpând pământul de la cinci dimineaţa la şase seara,
 fără altă hrană decât o zeamă chioară în care era mai multă apă decât făină, ce
 ne era servită de trei ori pe zi. Apoi s-a ivit prilejul nesperat, pe care m-am
@@ -18856,7 +18855,7 @@ zeamă de hârdău? Vino-ncoace, scursură de gunoi pe două picioare.
 Se urcă pe un scaun iar Schnitzius trebui să-i dea ceainicul.
 23
 — Dreeepţi! Capul pe spate şi deschide botul!
-Încet, întreg conţinutul se scurse in gura deschisă a lui Schnitzius,
+Încet, întreg conţinutul se scurse în gura deschisă a lui Schnitzius,
 aproape sufocându-l. După ce termină, turbatul subofiţer zvârli recipientul de
 perete, ieşi în goană din dormitor, iscând mare gălăgie în sala de baie, de
 unde, pe rând, ieşi cu vreo şase găleţi pline pe care le azvârli din zbor pe
@@ -20062,7 +20061,7 @@ către bombardierele ata-cotoare, bum, bum, bum, iar mitralierele ţăcăneau
 care mai de care mai tare.
 Ghemuiţi lângă pasarelă, speriaţi, dar în acelaşi timp şi păcut stârniţi —
 oare nu era acesta botezul focului? — căutam în zadar să ne dăm seama ce se
-întâmpla. Avioanele reveneau acum năpustindu-se in picaj spre noi, mugind
+întâmpla. Avioanele reveneau acum năpustindu-se în picaj spre noi, mugind
 furios, apoi un şuierat caracteristic acoperi zgomotul motoarelor şi Bătrânul
 urlă:
 — Pe burtă! Asta-i pentru noi!
@@ -20267,7 +20266,7 @@ adusă regelui Italiei. Şi, pentru că tot veni vorba, oare la curtea capetelor
 încoronate latrinele or fi pluşate şi din aur? Îşi lăsă pantalonii în vine şi se
 aşeză cu fundul peste marginea ambarcaţiunii. Din când în când câte un val îi
 biciuia posteriorul.
-— Uiii! mă gâdilă, la naiba! In schimb e foarte higienic. Ar trebui să
+— Uiii! mă gâdilă, la naiba! în schimb e foarte higienic. Ar trebui să
 încerci şi tu. E chiar mai plăcut decât la curtea regelui Italiei...
 — Porta, nu mai ai haz.
 Vitalitatea lui mă uluia şi mă obosea, pentru mine era la fel ca un zid alb
@@ -20754,7 +20753,7 @@ uniforme kaki, bărbaţi din toate armele şi armatele Europei Centrale adunaţi
 monoclu şi sfârşind cu pifanii păduchioşi şi jegoşi.
 Cei mai mulţi dintre civilii ruşi purtau haine vătuite, incredibil de
 zdrenţăroase şi încălţări de pâslă fără nici o formă. Am întâlnit vreo câteva
-femei în vârstă purtând fiecare câte un sac mare in spinare, sporovăind ca
+femei în vârstă purtând fiecare câte un sac mare în spinare, sporovăind ca
 nişte coţofene. Deodată una dintre ele se opri, îşi desfăcu picioarele şi în clipa
 61
 următoare se slobozi răsunător, în timp ce la picioarele ei se lăţea o băltoacă.
@@ -21168,7 +21167,7 @@ fuseseră făcuţi terci cu lovituri date cu patul armei şi cu biciul căzăces
 Pentru ei sunase ora răfuielilor.
 PRIZONIERATUL
 Noaptea târziu am fost adunaţi, cam două mii de oameni, într-o coloană
-lungă care se puse in mişcare către est, sub paza strictă a cavaleriştilor. Era
+lungă care se puse în mişcare către est, sub paza strictă a cavaleriştilor. Era
 interzis cu desăvârşire a ieşi din rânduri, aşa că eram nevoiţi să ne uşurăm
 din mers, în pantaloni. Biciul îi punea din nou pe picioare pe cei ce cădeau în
 zăpadă. Iar dacă nu izbuteau, cădeau sub sabia cavaleriştilor. Trei zile de
@@ -21431,7 +21430,7 @@ Mai adăugaţi la acestea că Rusia se afla în război şi veţi înţelege les
 condiţiile de viaţă cât şi cele de muncă nu puteau fi normale.
 Am cunoscut un comunist german, Bernhard Kruse, din
 Berlin-Lichterfelde. Fusese pe baricade în timpul luptelor de după primul
-război mondial. In 1942 trecuse in Rusia Sovietică, unde comuniştii l-au
+război mondial. în 1942 trecuse în Rusia Sovietică, unde comuniştii l-au
 primit cu braţele deschise. De profesie era mecanic montor şi îşi făcuse o
 situaţie bună la o uzină din Leningrad, ca instructor a câtorva sute de
 muncitori. Câştiga bine, se bucura de privilegiile cetăţeanului sovietic de rang
@@ -21568,7 +21567,7 @@ nord de Alatir. La plecare fuseseră patru, dar unul căzuse sub roţile trenulu
 iar altul nimerise direct în braţele a trei soldaţi ruşi.
 Cu harta în mână — pe care o furasem înainte de a părăsi lagărul —
 ne-am pus de acord că nu trebuia să mergem mai departe de Saratov, în
-direcţia mării Caspice. Cel mai bine ar fi fost să încercăm a ajunge in bazinul
+direcţia mării Caspice. Cel mai bine ar fi fost să încercăm a ajunge în bazinul
 Volgăi, la nord-vest de Stalingrad, acolo unde se găseau trupele noastre în
 77
 prezent. Cei doi „compatrioţi" ai mei fuseseră înhăţaţi cu patru luni în urmă, la
@@ -21916,7 +21915,7 @@ suplineam colegii lăsându-i să stea — o adevărată scenă de propagandă �
 spiritul şefilor iubiţi — dar asta doar pentru că vântul era tăios ca briciul şi
 mişcarea era singura cale de a te încălzi.
 Ridicându-şi mâna, Bătnnul declamă poetic:
-— Copiii mei. scumpii mei, nu-i minunat să stai aici in aer liber şi să sapi
+— Copiii mei. scumpii mei, nu-i minunat să stai aici în aer liber şi să sapi
 această groapă superbă? Vedeţi, soarele se ridică şi nu trebuie să ne mai fie
 frică de Moş Crivăţ! Totul este liniştit, copii, micuţele păsărele ale Domnului
 ne vor cânta şi dacă vom fi cuminţi, cu adevărat cuminţi. Bătrânul Moş al
@@ -22566,7 +22565,7 @@ facem remarcaţi. Al doilea tanc a luat poziţie în spatele unei clădiri lungi
 Bătrânul a venit lângă mine ca să se asigure că am ochit bine, căci o
 lovitură ratată în condiţiile acestea ne-ar fi condamnat la moarte. Turela se
 roti, aveam al doilea tanc în vizor. Foc! La această distanţă obuzul a smuls pur
-şi simplu turela tancului rusesc. Cele două T-34 sunt in flăcări când sărim în
+şi simplu turela tancului rusesc. Cele două T-34 sunt în flăcări când sărim în
 ajutorul camaradului care, după violenţa schimbului de focuri, nu este tocmai
 stăpân pe situaţie.
 Nu făcusem nici două sute de metri când ne-am trezit cu un KW-2 în faţă,
@@ -22824,7 +22823,7 @@ flăcările şi asasinatele intrate în rutină, mă otrăvise ca pe toţi ceila
 102
 Chiar şi nazistul cel mai fanatic trebuia să admită că marea ofensivă
 germană era un eşec, iar noi nu făceam decât să ne retragem. Un ultim efort,
-pe toată lungimea frontului, pentru a încerca să răsturnăm, in extremis,
+pe toată lungimea frontului, pentru a încerca să răsturnăm, în extremis,
 norocul armelor. Compania noastră, ajunsă până la Biriuţk, a surprins o
 unitate de cavalerie aflată în refacere şi a distrus-o. În câteva minute am
 transformat oameni şi cai într-o masă hăcuită. Oamenii epuizaţi urlau,
@@ -22983,7 +22982,7 @@ care se întorceau în trenul lor blindat, întorcând spatele, ostentativ, tren
 sanitar ce se pusese în mişcare. N-am încercat nici eu să mă uit în urmă, dar
 îmi imaginez cele trei fete pline de tandreţe, privindu-ne din spatele unui
 geam. Nu trei infirmiere, ci trei femei care copleşiseră trei bărbaţi cu darurile
-lor şi primiseră in aceeaşi măsură ceea ce dăruiseră. Atât de repede şi atât de
+lor şi primiseră în aceeaşi măsură ceea ce dăruiseră. Atât de repede şi atât de
 deplin...
 Cu ochii zâmbăreţi, am urcat în vagon.
 Chiar şi Porta tăcea, ceea ce demonstrează că şi cel mai cinic poate să
@@ -23793,7 +23792,7 @@ acest fel de dovezi s-ar putea demonstra că „obiceiurile ruseşti" au existat
 într-o măsură mai mare sau mai mică, în toate armatele.
 Eram uneori martorii unor fapte care ne lăsau muţi de uimire. În timpul
 unui atac, de exemplu, câţiva dintre ultimii noştri „soldaţi" de
-şaisprezece-şaptesprezece ani fuseseră luaţi de ruşi. In aceeaşi dimineaţă i-au
+şaisprezece-şaptesprezece ani fuseseră luaţi de ruşi. în aceeaşi dimineaţă i-au
 trimis înapoi, după ce le-au tăiat pantalonii de la uniformă, astfel încât păreau
 îmbrăcaţi cu pantaloni scurţi.
 Pe spatele unuia dintre ei era prins cu ace acest mesaj edificator:
@@ -23953,7 +23952,7 @@ interiorul oraşului ne-am despărţit în mici grupuri de luptă, care au pătr
 separat în Kiev prin diverse puncte. Tancul meu mergea chiar în spatele
 vehiculelor lui Porta şi Bătrânului. Am coborât pe Vosduşfotskoie, apoi am
 traversat o linie de cale ferată şi am mers în lungul străzii Diakova, unde toate
-casele erau ocupate de germani. In sfârşit, am plecat spre Pavolo, la marginea
+casele erau ocupate de germani. în sfârşit, am plecat spre Pavolo, la marginea
 de nord a oraşului. Manevrând printr-un labirint de străduţe şi de treceri
 strimte, am ajuns, în zori, la o veche uzină.
 Optsprezece T-34 şi cinci KW2 erau aliniate în curtea întinsă, încadrate
@@ -24289,7 +24288,7 @@ Mi-a întins un certificat care era de fapt visul oricărui soldat cu mintea
 întreagă:
 „Obergefreiter-ul Ernst Stolpe, din Batalionul 7 vânători de munte poate
 fi considerat grav-rănit, datorită celor trei leziuni importante de la cap. Nu
-trebuie să fie in nici un caz obligat să îndeplinească munei dificile sau
+trebuie să fie în nici un caz obligat să îndeplinească munei dificile sau
 constrâns să poarte echipament greu, în special casca de oţel. În caz de atac
 trebuie trimis imediat la cel mai apropiat spital militar.
 Standort Lazarett 40 Paris
@@ -24605,7 +24604,7 @@ Leibstandarte!
 de femeile fanatice. Să se ducă dracului totul. Hitler a pierdut războiul, ăsta-i
 un fapt. Dar dacă vom vedea, tu şi cu mine, ziua glorioasă a prăbuşirii, asta-i
 138
-cu totul altceva. In curând va fi rândul nostru să intrăm la apă. E caraghios să
+cu totul altceva. în curând va fi rândul nostru să intrăm la apă. E caraghios să
 trăieşti cu speranţa de a vedea totul prăbuşmdu-se cât mai curând! Să bem,
 Sven, asta ne-a mai rămas...
 — Să bem pentru următoarea întâlnire cu o fată frumoasă. Chiar
