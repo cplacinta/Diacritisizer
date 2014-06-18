@@ -27,7 +27,7 @@ public class DiacriticsRestorer {
 
     int phraseStartIndex;
     int startIndex;
-    int endIndex;
+    int endIndex = 0;
 
     for (String phrase : phrases) {
       phraseStartIndex = input.indexOf(phrase);
@@ -44,7 +44,7 @@ public class DiacriticsRestorer {
           previousWord = null;
         }
         String currentWord = iterator.next();
-        startIndex = phraseStartIndex + phrase.indexOf(currentWord);
+        startIndex = phraseStartIndex + phrase.indexOf(currentWord, endIndex);
         endIndex = startIndex + currentWord.length();
         if (iterator.hasNext()) {
           nextWord = iterator.next();
@@ -96,7 +96,7 @@ public class DiacriticsRestorer {
               wordService.getCorrectWordFromBigram(bigrams.get(0), wordBuilder.buildCleanForm(currentWord));
             input = replaceWord(input, currentWord, replacementWord, startIndex, endIndex);
             replacementFound = true;
-          } else {
+          } else if (bigrams.size() > 0) {
             List<Trigram> trigrams = wordService.getTrigramsContainingBigrams(bigrams, currentWord.toLowerCase());
             if (trigrams.size() == 1) {
               Word replacementWord = trigrams.get(0).getSecondWord();
